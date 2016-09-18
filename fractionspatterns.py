@@ -21,7 +21,7 @@ listd = []
 a = 0
 b = 0
 d = int(input("Largest Denominator?"))
-for x in range(0,d):
+for x in range(0,d -1):
     print(x)
     a += 1
     b = 1
