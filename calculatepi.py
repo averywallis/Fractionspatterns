@@ -9,6 +9,7 @@ import math
 lists = []
 a = 1/2
 lists.append(a)
+print(lists)
 
 
 
