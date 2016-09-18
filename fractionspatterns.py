@@ -23,7 +23,7 @@ for x in range(0,2):
             lista.append(c)
     if x == 1:
         listb.append(c)
-        for x in range(0,1):
+        for x in range(0,2):
             a = a
             b += 1
             c = a/b
