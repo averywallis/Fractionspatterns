@@ -9,6 +9,7 @@ import math
 lista = []
 listb = []
 listc = []
+listd = []
 a = 0
 b = 0
 d = int(input("Largest Denominator?"))-1
@@ -37,10 +38,17 @@ for x in range(0,d):
             b += 1
             c = a/b
             listc.append(c)
+    if x == 3:
+        listd.append(c)
+        for x in range(0,d):
+            a = a
+            b += 1
+            c = a/b
+            listd.append(c)        
 print(lista)
 print(listb)
 print(listc)
-
+print(listd)
 
 
 """
