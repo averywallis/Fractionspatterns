@@ -6,8 +6,9 @@ This was an experiment for Math Modeling and Fractions
 
 """
 import math
-
-
+lists = []
+a = 1/2
+lists.append[a]
 
 
 
