@@ -39,6 +39,7 @@ for x in range(0,d):
             listc.append(c)
 print(lista)
 print(listb)
+print(listc)
 
 
 
