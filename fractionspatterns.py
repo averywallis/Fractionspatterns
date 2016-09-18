@@ -33,7 +33,7 @@ for x in range(0,d):
     if x == 2:
         listc.append(c)
         for x in range(0,d):
-            a = 3
+            a = a
             b += 1
             c = a/b
             listc.append(c)
