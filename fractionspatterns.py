@@ -21,9 +21,9 @@ for x in range(0,1):
         c = a/b
         lista.append(c)
     listb.append(c)
-print(lists)
+print(lista)
 
-d = lists[1]
+d = lista[1]
 
 print(d)
 
