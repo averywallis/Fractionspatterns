@@ -10,6 +10,7 @@ lista = []
 listb = []
 a = 0
 b = 0
+d = str(input("Largest Denominator?"))
 for x in range(0,2):
     a += 1
     b = 1
@@ -30,10 +31,6 @@ for x in range(0,2):
             listb.append(c)
 print(lista)
 print(listb)
-
-d = lista[1]
-
-print(d)
 
 
 
