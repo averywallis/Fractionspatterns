@@ -21,7 +21,7 @@ for x in range(0,2):
             b += 1
             c = a/b
             lista.append(c)
-    else:
+    if x == 1:
         listb.append(c)
         for x in range(0,1):
             a = a
