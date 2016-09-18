@@ -30,7 +30,7 @@ for x in range(0,d):
             b += 1
             c = a/b
             listb.append(c)
-    if x == 2:
+    if x == d:
         listc.append(c)
         for x in range(0,d):
             a = 3
