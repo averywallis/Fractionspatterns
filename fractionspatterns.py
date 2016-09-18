@@ -10,13 +10,13 @@ lista = []
 listb = []
 a = 0
 b = 0
-for x in range(0,1):
+for x in range(0,2):
     a += 1
     b = 1
     c = a/b
     if x == 0:
         lista.append(c)
-        for x in range(0,1):
+        for x in range(0,2):
             a = a
             b += 1
             c = a/b
