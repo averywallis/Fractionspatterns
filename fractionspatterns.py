@@ -11,7 +11,7 @@ listb = []
 listc = []
 a = 0
 b = 0
-d = int(input("Largest Denominator?"))-1
+d = int(input("Largest Denominator?"))
 for x in range(0,d):
     a += 1
     b = 1
