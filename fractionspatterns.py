@@ -11,20 +11,20 @@ listb = []
 a = 0
 b = 0
 d = str(input("Largest Denominator?"))
-for x in range(0,2):
+for x in range(0,d):
     a += 1
     b = 1
     c = a/b
     if x == 0:
         lista.append(c)
-        for y in range(0,2):
+        for y in range(0,d):
             a = a
             b += 1
             c = a/b
             lista.append(c)
     if x == 1:
         listb.append(c)
-        for x in range(0,2):
+        for x in range(0,d):
             a = a
             b += 1
             c = a/b
