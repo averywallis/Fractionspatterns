@@ -20,7 +20,8 @@ for x in range(0,1):
         c = a/b
         lists.append(c)
 print(lists)
-d = len(lists)
+
+d = len(lists[1])
 print(d)
 
 
