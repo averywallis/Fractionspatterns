@@ -16,6 +16,7 @@ for x in range(0,d):
     a += 1
     b = 1
     c = a/b
+    lista.append(c)
     if x == 0:
         lista.append(c)
         for y in range(0,d):
