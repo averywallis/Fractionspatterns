@@ -11,7 +11,7 @@ a = 0
 b = 0
 for x in range(0,10):
     a += 1
-    b = b
+    b = 1
     c = a/b
     lists.append(c)
 print(lists)
