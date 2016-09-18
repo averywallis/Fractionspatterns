@@ -21,7 +21,7 @@ for x in range(0,1):
         lists.append(c)
 print(lists)
 
-d = len(lists)
+d = lists[1]
 print(d)
 
 
