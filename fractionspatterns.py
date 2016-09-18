@@ -28,28 +28,28 @@ for x in range(0,d):
     c = a/b
     if x == 0:
         lista.append(c)
-        for y in range(0,d):
+        for y in range(0,d-1):
             a = a
             b += 1
             c = a/b
             lista.append(c)
     if x == 1:
         listb.append(c)
-        for x in range(0,d):
+        for x in range(0,d-1):
             a = a
             b += 1
             c = a/b
             listb.append(c)
     if x == 2:
         listc.append(c)
-        for x in range(0,d):
+        for x in range(0,d-1):
             a = a
             b += 1
             c = a/b
             listc.append(c)
     if x == 3:
         listd.append(c)
-        for x in range(0,d):
+        for x in range(0,d-1):
             a = a
             b += 1
             c = a/b
