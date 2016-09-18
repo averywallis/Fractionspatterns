@@ -14,6 +14,11 @@ for x in range(0,10):
     b = 1
     c = a/b
     lists.append(c)
+    for x in range(0,10):
+        a = a
+        b += 1
+        c = a/b
+        lists.append(c)
 print(lists)
 
 
