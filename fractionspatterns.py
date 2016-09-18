@@ -22,6 +22,7 @@ for x in range(0,1):
         lista.append(c)
     listb.append(c)
 print(lista)
+print(listb)
 
 d = lista[1]
 
