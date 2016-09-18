@@ -8,6 +8,7 @@ This was an experiment for Math Modeling and Fractions
 import math
 lista = []
 listb = []
+listc = []
 a = 0
 b = 0
 d = int(input("Largest Denominator?"))-1
@@ -29,6 +30,13 @@ for x in range(0,d):
             b += 1
             c = a/b
             listb.append(c)
+    if x == 2:
+        listc.append(c)
+        for x in range(0,d):
+            a = a
+            b += 1
+            c = a/b
+            listc.append(c)
 print(lista)
 print(listb)
 
