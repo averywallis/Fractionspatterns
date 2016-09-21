@@ -19,7 +19,7 @@ for x in range(0,d):
     b += 1
     c = a/b
     lista.append(c)
-
+print(lista)
 
 """
 w= int(input('Width of multiplication table: '))
