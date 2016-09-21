@@ -14,6 +14,7 @@ a = 0
 b = 0
 d = int(input("Largest Denominator?"))
 for x in range(0,d):
+    x = x
     a = 1
     b += 1
     c = a/b
