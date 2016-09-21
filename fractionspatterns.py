@@ -19,9 +19,9 @@ for x in range(0,d):
     b += 1
     c = a/b
     lista.append(c)
-    if (lista[x])%2==0:
+    if b%2==0:
         listb.append(c)
-    elif lista[x]%3==0:
+    elif b%3==0:
         listc.append(c)
 print(lista)
 print(listb)
