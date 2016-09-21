@@ -21,9 +21,9 @@ for x in range(0,d):
     listfr.append(c)
     if b%2==0:
         list2.append(c)
-    elif b%3==0:
+    if b%3==0:
         list3.append(c)
-    elif b%4==0:
+    if b%4==0:
         list4.append(c)
 print(listfr)
 print(list2)
