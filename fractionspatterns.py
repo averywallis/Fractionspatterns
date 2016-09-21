@@ -20,9 +20,11 @@ for x in range(0,d):
     lista.append(c)
     if lista[x]%2==0:
         listb.append(c)
+    elif lista[x]%3==0:
+        listc.append(c)
 print(lista)
 print(listb)
-
+print(listc)
 
 
 """
