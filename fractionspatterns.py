@@ -68,6 +68,9 @@ for x in range(0,d):
     if b%10==0:
         list10.append(b)
         list10fr.append(c)
+    if math.sqrt(b)==2:
+        listsr2.append(b)
+        listsr2fr.append(c)
     if math.sqrt(b)==3:
         listsr3.append(b)
         listsr3fr.append(c)
