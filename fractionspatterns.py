@@ -34,7 +34,7 @@ for x in range(0,d):
     if b%4==0:
         list4.append(b)
 zlist2 = zip(list2,list2fr)
-zlist3 = zip(list3,list3fr
+zlist3 = zip(list3,list3fr)
 print("Fractions:")
 print(listfr)
 print("Divisible by 2")
