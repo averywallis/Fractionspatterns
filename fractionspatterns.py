@@ -9,7 +9,7 @@ import math
 listfr = []
 list2 = []
 list3 = []
-list3.1= []
+list31= []
 list4 = []
 a = 0
 b = 0
