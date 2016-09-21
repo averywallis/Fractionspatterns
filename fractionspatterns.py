@@ -140,6 +140,9 @@ print(list(zlistsr3))
 print("")
 print("Squareroot is 4")
 print(list(zlistsr4))
+print("")
+print("Squareroot divisible by 2")
+print(list(zlistsrd2))
 
 """
 w= int(input('Width of multiplication table: '))
