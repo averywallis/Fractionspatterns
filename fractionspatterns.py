@@ -27,9 +27,11 @@ for x in range(0,d):
         list4.append(c)
 print("Fractions:")
 print(listfr)
-print("")
+print("Divisible by 2")
 print(list2)
+print("Divisible by 3")
 print(list3)
+print("Divisible by 4")
 print(list4)
 
 
