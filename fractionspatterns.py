@@ -26,10 +26,7 @@ for x in range(0,d):
 print(lista)
 print(listb)
 print(listc)
-if 5%2==0:
-    print("e")
-elif 6%2==0:
-    print("f")
+
 
 """
 w= int(input('Width of multiplication table: '))
