@@ -32,6 +32,8 @@ listsr3 = []
 listsr3fr = []
 listsr4 = []
 listsr4fr = []
+listsrd2 = []
+listsrd2fr = []
 a = 0
 b = 0
 d = int(input("Largest Denominator?"))
@@ -78,7 +80,10 @@ for x in range(0,d):
         listsr3fr.append(c)
     if math.sqrt(b)==4:
         listsr4.append(b)
-        listsr4fr.append(c)        
+        listsr4fr.append(c)
+    if math.sqrt(b)%2==0:
+        listsrd2.append(b)
+        listsrd2fr.append(c)        
     
 zlist2 = zip(list2,list2fr)
 zlist3 = zip(list3,list3fr)
@@ -92,6 +97,7 @@ zlist10 = zip(list10,list10fr)
 zlistsr2 = zip(listsr2,listsr2fr)
 zlistsr3 = zip(listsr3,listsr3fr)
 zlistsr4 = zip(listsr4,listsr4fr)
+zlistsrd2 = zip(listsrd2, listsrd2fr)
 
 print("Fractions:")
 print(listfr)
