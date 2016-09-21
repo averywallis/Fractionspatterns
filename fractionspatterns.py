@@ -10,8 +10,10 @@ listfr = []
 list2 = []
 list2fr = []
 list3 = []
+list3fr = []
 list31= []
 list4 = []
+list4fr = []
 a = 0
 b = 0
 d = int(input("Largest Denominator?"))
@@ -30,10 +32,11 @@ for x in range(0,d):
         list31.append(b)
     if b%4==0:
         list4.append(b)
+zlist2 = zip(list2,list2fr)
 print("Fractions:")
 print(listfr)
 print("Divisible by 2")
-print(list2)
+print(zlist2)
 print("Divisible by 3")
 print(list3)
 print("Divisible by 3, remainder 1")
