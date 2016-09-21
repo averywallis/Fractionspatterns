@@ -16,6 +16,8 @@ list4 = []
 list4fr = []
 list5 = []
 list5fr = []
+list6 = []
+list6fr = []
 a = 0
 b = 0
 d = int(input("Largest Denominator?"))
@@ -39,10 +41,15 @@ for x in range(0,d):
     if b%5==0:
         list5.append(b)
         list5fr.append(c)
+    if b%6==0:
+        list6.append(b)
+        list6fr.append(c)
+    
 zlist2 = zip(list2,list2fr)
 zlist3 = zip(list3,list3fr)
 zlist4 = zip(list4,list4fr)
 zlist5 = zip(list5,list5fr)
+zlist6 = zip(list6,list6fr)
 print("Fractions:")
 print(listfr)
 print("")
@@ -60,6 +67,9 @@ print(list(zlist4))
 print("")
 print("Divisible by 5")
 print(list(zlist5))
+print("")
+print("Divisible by 6")
+print(list(zlist6))
 
 """
 w= int(input('Width of multiplication table: '))
