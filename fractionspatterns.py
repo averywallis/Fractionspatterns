@@ -25,7 +25,7 @@ for x in range(0,d):
 print(lista)
 print(listb)
 print(listc)
-if 4%2==0:
+if 5%2==0:
     print("e")
 
 """
