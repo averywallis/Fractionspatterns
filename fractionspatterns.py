@@ -34,6 +34,8 @@ listsr4 = []
 listsr4fr = []
 listsrd2 = []
 listsrd2fr = []
+listsrd3 = []
+listsrd3fr = []
 a = 0
 b = 0
 d = int(input("Largest Denominator?"))
@@ -83,7 +85,10 @@ for x in range(0,d):
         listsr4fr.append(c)
     if math.sqrt(b)%2==0:
         listsrd2.append(b)
-        listsrd2fr.append(c)        
+        listsrd2fr.append(c)
+    if math.sqrt(b)%3==0:
+        listsrd3.append(b)
+        listsrd3fr.append(c)
     
 zlist2 = zip(list2,list2fr)
 zlist3 = zip(list3,list3fr)
@@ -98,6 +103,7 @@ zlistsr2 = zip(listsr2,listsr2fr)
 zlistsr3 = zip(listsr3,listsr3fr)
 zlistsr4 = zip(listsr4,listsr4fr)
 zlistsrd2 = zip(listsrd2, listsrd2fr)
+zlistsrd3 = zip(listsrd3, listsrd3fr)
 
 print("Fractions:")
 print(listfr)
@@ -143,6 +149,9 @@ print(list(zlistsr4))
 print("")
 print("Squareroot divisible by 2")
 print(list(zlistsrd2))
+print("")
+print("Squareroot divisible by 3")
+print(list(zlistsrd3))
 
 """
 w= int(input('Width of multiplication table: '))
