@@ -21,13 +21,13 @@ for x in range(0,d):
     c = a/b
     listfr.append(c)
     if b%2==0:
-        list2.append(c)
+        list2.append(b)
     if b%3==0:
-        list3.append(c)
+        list3.append(b)
     if b%3==1:
-        list31.append(c)
+        list31.append(b)
     if b%4==0:
-        list4.append(c)
+        list4.append(b)
 print("Fractions:")
 print(listfr)
 print("Divisible by 2")
