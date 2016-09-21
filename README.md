@@ -1,2 +1,2 @@
 
-[Play!](https://github.com/averywallis/Fractionspatterns/blob/master/fractionspatterns.py)
+[Click for Fractions](https://github.com/averywallis/Fractionspatterns/blob/master/fractionspatterns.py)
