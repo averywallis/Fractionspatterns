@@ -9,6 +9,7 @@ import math
 listfr = []
 list2 = []
 list3 = []
+list3.1= []
 list4 = []
 a = 0
 b = 0
@@ -23,6 +24,8 @@ for x in range(0,d):
         list2.append(c)
     if b%3==0:
         list3.append(c)
+    if b%3==1:
+        list3.1
     if b%4==0:
         list4.append(c)
 print("Fractions:")
