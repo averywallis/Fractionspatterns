@@ -28,17 +28,19 @@ for x in range(0,d):
         list2fr.append(c)
     if b%3==0:
         list3.append(b)
+        list3fr.append(c)
     if b%3==1:
         list31.append(b)
     if b%4==0:
         list4.append(b)
 zlist2 = zip(list2,list2fr)
+zlist3 = zip(list3,list3fr
 print("Fractions:")
 print(listfr)
 print("Divisible by 2")
 print(list(zlist2))
 print("Divisible by 3")
-print(list3)
+print(list(zlist3))
 print("Divisible by 3, remainder 1")
 print(list31)
 print("Divisible by 4")
