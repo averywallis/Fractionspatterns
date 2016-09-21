@@ -26,6 +26,8 @@ list9 = []
 list9fr = []
 list10 = []
 list10fr = []
+listsr2 = []
+listsr2fr = []
 listsr3 = []
 listsr3fr = []
 a = 0
@@ -79,6 +81,7 @@ zlist7 = zip(list7,list7fr)
 zlist8 = zip(list8,list8fr)
 zlist9 = zip(list9,list9fr)
 zlist10 = zip(list10,list10fr)
+zlistsr2 = zip(listsr2,listsr2fr)
 zlistsr3 = zip(listsr3,listsr3fr)
 
 print("Fractions:")
@@ -113,6 +116,9 @@ print(list(zlist9))
 print("")
 print("Divisible by 10")
 print(list(zlist10))
+print("")
+print("Squareroot is 2")
+print(list(zlistsr2))
 print("")
 print("Squareroot is 3")
 print(list(zlistsr3))
