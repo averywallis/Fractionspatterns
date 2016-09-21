@@ -6,9 +6,9 @@ This was an experiment for Math Modeling and Fractions
 
 """
 import math
-lista = []
-listb = []
-listc = []
+listfr = []
+list2 = []
+list3 = []
 listd = []
 a = 0
 b = 0
@@ -18,14 +18,14 @@ for x in range(0,d):
     a = 1
     b += 1
     c = a/b
-    lista.append(c)
+    listfr.append(c)
     if b%2==0:
-        listb.append(c)
+        list2.append(c)
     elif b%3==0:
-        listc.append(c)
-print(lista)
-print(listb)
-print(listc)
+        list3.append(c)
+print(listfr)
+print(list2)
+print(list3)
 
 
 """
