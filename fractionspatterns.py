@@ -18,7 +18,12 @@ for x in range(0,d):
     b += 1
     c = a/b
     lista.append(c)
+    if lista[x]%2==0:
+        listb.append(c)
 print(lista)
+print(listb)
+
+
 
 """
 w= int(input('Width of multiplication table: '))
