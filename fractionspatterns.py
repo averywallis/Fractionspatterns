@@ -25,6 +25,7 @@ for x in range(0,d):
         list3.append(c)
     if b%4==0:
         list4.append(c)
+print("Fractions:")
 print(listfr)
 print("")
 print(list2)
