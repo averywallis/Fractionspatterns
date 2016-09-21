@@ -23,7 +23,7 @@ for x in range(0,d):
         listb.append(c)
     elif lista[x]%3==0:
         listc.append(c)
-print(lista)
+print(lista[0])
 print(listb)
 print(listc)
 if 5%2==0:
