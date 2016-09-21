@@ -26,6 +26,7 @@ for x in range(0,d):
     if b%4==0:
         list4.append(c)
 print(listfr)
+print("")
 print(list2)
 print(list3)
 print(list4)
