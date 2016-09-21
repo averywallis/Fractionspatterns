@@ -28,7 +28,7 @@ for x in range(0,d):
 print(listfr)
 print(list2)
 print(list3)
-pritn(list4)
+print(list4)
 
 
 """
