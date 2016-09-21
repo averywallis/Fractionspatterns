@@ -8,6 +8,7 @@ This was an experiment for Math Modeling and Fractions
 import math
 listfr = []
 list2 = []
+list2fr = []
 list3 = []
 list31= []
 list4 = []
@@ -22,6 +23,7 @@ for x in range(0,d):
     listfr.append(c)
     if b%2==0:
         list2.append(b)
+        list2fr.append(c)
     if b%3==0:
         list3.append(b)
     if b%3==1:
