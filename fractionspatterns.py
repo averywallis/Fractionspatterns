@@ -9,7 +9,7 @@ import math
 listfr = []
 list2 = []
 list3 = []
-listd = []
+list4 = []
 a = 0
 b = 0
 d = int(input("Largest Denominator?"))
@@ -23,9 +23,12 @@ for x in range(0,d):
         list2.append(c)
     elif b%3==0:
         list3.append(c)
+    elif b%4==0:
+        list4.append(c)
 print(listfr)
 print(list2)
 print(list3)
+pritn(list4)
 
 
 """
