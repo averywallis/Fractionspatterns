@@ -34,6 +34,8 @@ print("Divisible by 2")
 print(list2)
 print("Divisible by 3")
 print(list3)
+print("Divisible by 3, remainder 1")
+print(list31)
 print("Divisible by 4")
 print(list4)
 
