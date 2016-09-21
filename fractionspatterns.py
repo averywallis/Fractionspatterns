@@ -1,5 +1,5 @@
 """
-calculatepi.py
+fractionspatterns.py
 Author: Avery Wallis
 
 This was an experiment for Math Modeling and Fractions
@@ -64,7 +64,8 @@ for x in range(0,d):
     if b%10==0:
         list10.append(b)
         list10fr.append(c)
-    
+    if math.sqrt(b)==3:
+        print("thing")
     
 zlist2 = zip(list2,list2fr)
 zlist3 = zip(list3,list3fr)
