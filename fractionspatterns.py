@@ -26,6 +26,8 @@ list9 = []
 list9fr = []
 list10 = []
 list10fr = []
+listsr3 = []
+listsr3fr = []
 a = 0
 b = 0
 d = int(input("Largest Denominator?"))
@@ -65,7 +67,8 @@ for x in range(0,d):
         list10.append(b)
         list10fr.append(c)
     if math.sqrt(b)==3:
-        print("thing")
+        listsr3.append(b)
+        listsr3fr.append(c)
     
 zlist2 = zip(list2,list2fr)
 zlist3 = zip(list3,list3fr)
@@ -76,6 +79,7 @@ zlist7 = zip(list7,list7fr)
 zlist8 = zip(list8,list8fr)
 zlist9 = zip(list9,list9fr)
 zlist10 = zip(list10,list10fr)
+zlistsr3 = zip(listsr3,listsr3fr)
 
 print("Fractions:")
 print(listfr)
@@ -109,6 +113,9 @@ print(list(zlist9))
 print("")
 print("Divisible by 10")
 print(list(zlist10))
+print("")
+print("Squareroot is 3")
+print(list(zlistsr3))
 
 """
 w= int(input('Width of multiplication table: '))
